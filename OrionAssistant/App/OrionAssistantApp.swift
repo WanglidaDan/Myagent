@@ -8,6 +8,9 @@ struct OrionAssistantApp: App {
         WindowGroup {
             AppShellView()
                 .environmentObject(container)
+                .task {
+                    await container.refreshIntegrationStatus()
+                }
         }
     }
 }

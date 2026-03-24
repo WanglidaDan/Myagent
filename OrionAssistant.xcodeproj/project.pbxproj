@@ -22,6 +22,8 @@
 		A0000000000000000000002D /* ActionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000D /* ActionCard.swift */; };
 		A0000000000000000000002F /* VoiceInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000002E /* VoiceInputService.swift */; };
 		A00000000000000000000038 /* BailianLLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000039 /* BailianLLMService.swift */; };
+		A0000000000000000000003B /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000003A /* KeychainStore.swift */; };
+		A0000000000000000000003D /* PermissionStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000003C /* PermissionStatusService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		A0000000000000000000000F /* OrionAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrionAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0000000000000000000002E /* VoiceInputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputService.swift; sourceTree = "<group>"; };
 		A00000000000000000000039 /* BailianLLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BailianLLMService.swift; sourceTree = "<group>"; };
+		A0000000000000000000003A /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A0000000000000000000003C /* PermissionStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatusService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				A00000000000000000000003 /* AppTheme.swift */,
 				A00000000000000000000004 /* DomainModels.swift */,
+				A0000000000000000000003A /* KeychainStore.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				A00000000000000000000007 /* SystemIntegrationServices.swift */,
 				A0000000000000000000002E /* VoiceInputService.swift */,
 				A00000000000000000000039 /* BailianLLMService.swift */,
+				A0000000000000000000003C /* PermissionStatusService.swift */,
 			);
 			path = Integrations;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				A0000000000000000000002D /* ActionCard.swift in Sources */,
 				A0000000000000000000002F /* VoiceInputService.swift in Sources */,
 				A00000000000000000000038 /* BailianLLMService.swift in Sources */,
+				A0000000000000000000003B /* KeychainStore.swift in Sources */,
+				A0000000000000000000003D /* PermissionStatusService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

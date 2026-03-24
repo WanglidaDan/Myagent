@@ -85,16 +85,27 @@ struct TodayDashboardView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("周二 3月24日")
+            Text(formattedToday)
                 .font(.subheadline)
                 .foregroundStyle(AppTheme.Colors.secondaryText)
             Text(viewModel.greeting)
                 .font(.largeTitle.weight(.bold))
             Text("时间、路线和待办会在这里汇总成一条可执行的今天。")
                 .font(.subheadline)
-                .foregroundStyle(AppTheme.Colors.secondaryText)
+            .foregroundStyle(AppTheme.Colors.secondaryText)
         }
     }
+
+    private var formattedToday: String {
+        Self.todayFormatter.string(from: .now)
+    }
+
+    private static let todayFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "zh_CN")
+        formatter.dateFormat = "EEEE M月d日"
+        return formatter
+    }()
 
     private func color(for kind: AgendaKind) -> Color {
         switch kind {

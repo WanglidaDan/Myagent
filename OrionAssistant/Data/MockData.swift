@@ -25,17 +25,6 @@ enum MockData {
         recentItems: []
     )
 
-    static let integrationStatus = IntegrationStatus(
-        calendarAccessGranted: false,
-        remindersAccessGranted: false,
-        notificationsAccessGranted: false,
-        locationAccessGranted: false,
-        cameraAccessGranted: false,
-        microphoneAccessGranted: true,
-        speechRecognitionGranted: true,
-        llmProviderName: "百炼（待配置）"
-    )
-
     static let initialLLMDebugStatus = LLMDebugStatus(
         providerName: "百炼兼容接口",
         modelName: BailianSettingsStore.model,

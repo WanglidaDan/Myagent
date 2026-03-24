@@ -1,5 +1,5 @@
-import Combine
 import Foundation
+import Combine
 
 struct UserProfile {
     var displayName: String
@@ -208,10 +208,12 @@ struct LLMDebugStatus {
     }
 }
 
+@MainActor
 final class AppContainer: ObservableObject {
     let profile: UserProfile
     let assistantEngine: AssistantEngine
     let integrations: SystemIntegrationServices
+    private let permissionStatusService = PermissionStatusService()
 
     let todayViewModel: TodayDashboardViewModel
     let assistantViewModel: AssistantChatViewModel
@@ -225,9 +227,19 @@ final class AppContainer: ObservableObject {
         profile = MockData.profile
         integrations = .live
         assistantEngine = AssistantEngine()
-        integrationStatus = MockData.integrationStatus
+        let initialIntegrationStatus = IntegrationStatus(
+            calendarAccessGranted: false,
+            remindersAccessGranted: false,
+            notificationsAccessGranted: false,
+            locationAccessGranted: false,
+            cameraAccessGranted: false,
+            microphoneAccessGranted: false,
+            speechRecognitionGranted: false,
+            llmProviderName: BailianSettingsStore.isConfigured ? "百炼（已配置）" : "百炼（待配置）"
+        )
+        integrationStatus = initialIntegrationStatus
         llmDebugStatus = MockData.initialLLMDebugStatus
-        voiceInputViewModel = VoiceInputViewModel(service: integrations.voiceInput, integrationStatus: MockData.integrationStatus)
+        voiceInputViewModel = VoiceInputViewModel(service: integrations.voiceInput, integrationStatus: initialIntegrationStatus)
         todayViewModel = TodayDashboardViewModel(
             greeting: "准备开始安排今天",
             suggestedAction: nil,
@@ -241,8 +253,20 @@ final class AppContainer: ObservableObject {
         tripViewModel = TripPlannerViewModel(summary: nil)
         expenseViewModel = ExpenseCenterViewModel(summary: MockData.emptyExpenseSummary)
     }
+
+    func refreshIntegrationStatus() async {
+        let permissions = await permissionStatusService.refresh()
+        let providerName = BailianSettingsStore.isConfigured ? "百炼（已配置）" : "百炼（待配置）"
+
+        integrationStatus = permissions.integrationStatus(llmProviderName: providerName)
+        voiceInputViewModel.permissionSummary = permissions.voicePermissionSummary
+        llmDebugStatus.providerName = "百炼兼容接口"
+        llmDebugStatus.modelName = BailianSettingsStore.model
+        llmDebugStatus.isConfigured = BailianSettingsStore.isConfigured
+    }
 }
 
+@MainActor
 final class TodayDashboardViewModel: ObservableObject {
     let greeting: String
     @Published var suggestedAction: AssistantActionDraft?
@@ -289,6 +313,7 @@ struct VoicePermissionSummary {
     }
 }
 
+@MainActor
 final class VoiceInputViewModel: ObservableObject {
     @Published var phase: VoiceInputPhase = .idle
     @Published var liveTranscript = ""
@@ -377,6 +402,7 @@ final class VoiceInputViewModel: ObservableObject {
     }
 }
 
+@MainActor
 final class TripPlannerViewModel: ObservableObject {
     @Published var summary: TripPlanSummary?
 

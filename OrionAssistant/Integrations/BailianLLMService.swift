@@ -9,8 +9,7 @@ enum BailianSettingsStore {
     static let defaultModel = "qwen-turbo"
 
     static var apiKey: String {
-        let value = UserDefaults.standard.string(forKey: apiKeyKey) ?? ""
-        return value.trimmingCharacters(in: .whitespacesAndNewlines)
+        KeychainStore.load(apiKeyKey)
     }
 
     static var baseURL: String {

@@ -3,7 +3,8 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject private var container: AppContainer
     let integrationStatus: IntegrationStatus
-    @AppStorage(BailianSettingsStore.apiKeyKey) private var bailianAPIKey = ""
+    @State private var bailianAPIKey = ""
+    @State private var didLoadAPIKey = false
     @AppStorage(BailianSettingsStore.baseURLKey) private var bailianBaseURL = BailianSettingsStore.defaultBaseURL
     @AppStorage(BailianSettingsStore.modelKey) private var bailianModel = BailianSettingsStore.defaultModel
 
@@ -20,14 +21,19 @@ struct SettingsView: View {
             }
 
             Section("AI") {
-                LabeledContent("LLM Provider", value: bailianAPIKey.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? integrationStatus.llmProviderName : "百炼（已配置）")
-                LabeledContent("当前模型", value: container.llmDebugStatus.modelName)
+                LabeledContent("LLM Provider", value: integrationStatus.llmProviderName)
+                LabeledContent("当前模型", value: bailianModel.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? BailianSettingsStore.defaultModel : bailianModel)
                 LabeledContent("最近调用", value: container.llmDebugStatus.summaryText)
                 LabeledContent("动作执行策略", value: "先确认后写入系统")
                 if let lastErrorMessage = container.llmDebugStatus.lastErrorMessage, lastErrorMessage.isEmpty == false {
-                    Text("最近错误：\(lastErrorMessage)")
-                        .font(.footnote)
-                        .foregroundStyle(.red)
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("最近错误")
+                            .font(.footnote.weight(.semibold))
+                            .foregroundStyle(AppTheme.Colors.secondaryText)
+                        Text(lastErrorMessage)
+                            .font(.footnote)
+                            .foregroundStyle(.red)
+                    }
                 }
             }
 
@@ -54,6 +60,22 @@ struct SettingsView: View {
         .navigationTitle("设置")
         .scrollContentBackground(.hidden)
         .background(AppBackgroundView())
+        .onAppear(perform: loadAPIKey)
+        .onChange(of: bailianAPIKey) { _, newValue in
+            let trimmed = newValue.trimmingCharacters(in: .whitespacesAndNewlines)
+            if trimmed.isEmpty {
+                KeychainStore.delete(BailianSettingsStore.apiKeyKey)
+            } else {
+                KeychainStore.save(trimmed, for: BailianSettingsStore.apiKeyKey)
+            }
+            Task { await container.refreshIntegrationStatus() }
+        }
+    }
+
+    private func loadAPIKey() {
+        guard didLoadAPIKey == false else { return }
+        didLoadAPIKey = true
+        bailianAPIKey = KeychainStore.load(BailianSettingsStore.apiKeyKey)
     }
 
     private func permissionRow(_ title: String, granted: Bool) -> some View {
