@@ -1,0 +1,51 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="430" height="932" rx="44" fill="#F5F3EE"/>
+  <rect x="18" y="18" width="394" height="896" rx="36" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <text x="38" y="78" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">今日</text>
+  <text x="38" y="106" fill="#6A7487" font-size="15" font-family="Arial">周二 3月24日 · 你有 4 个安排</text>
+
+  <rect x="32" y="130" width="366" height="132" rx="24" fill="#1D3D73"/>
+  <text x="54" y="166" fill="#DCE8FF" font-size="14" font-family="Arial">AI 建议</text>
+  <text x="54" y="198" fill="white" font-size="22" font-family="Arial" font-weight="700">16:30 从公司出发去虹桥站</text>
+  <text x="54" y="225" fill="#DCE8FF" font-size="15" font-family="Arial">预计 42 分钟，已避开晚高峰拥堵</text>
+  <rect x="54" y="236" width="100" height="34" rx="17" fill="#2AA198"/>
+  <text x="84" y="258" fill="white" font-size="14" font-family="Arial" font-weight="700">确认提醒</text>
+  <rect x="166" y="236" width="90" height="34" rx="17" fill="#315288"/>
+  <text x="196" y="258" fill="#DCE8FF" font-size="14" font-family="Arial">稍后</text>
+
+  <text x="32" y="310" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">时间线</text>
+
+  <rect x="32" y="330" width="366" height="96" rx="22" fill="white" stroke="#E3DED5"/>
+  <circle cx="60" cy="378" r="10" fill="#2AA198"/>
+  <text x="82" y="366" fill="#8A94A8" font-size="13" font-family="Arial">10:00 - 11:30</text>
+  <text x="82" y="392" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">客户周会</text>
+  <text x="82" y="412" fill="#6A7487" font-size="14" font-family="Arial">陆家嘴会议室 A · 提前 30 分钟提醒</text>
+
+  <rect x="32" y="438" width="366" height="96" rx="22" fill="white" stroke="#E3DED5"/>
+  <circle cx="60" cy="486" r="10" fill="#E8B04B"/>
+  <text x="82" y="474" fill="#8A94A8" font-size="13" font-family="Arial">15:00 - 16:00</text>
+  <text x="82" y="500" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">报销材料提交</text>
+  <text x="82" y="520" fill="#6A7487" font-size="14" font-family="Arial">关联 3 张发票 · 仍缺酒店行程单</text>
+
+  <text x="32" y="576" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">即将出发</text>
+  <rect x="32" y="596" width="366" height="118" rx="22" fill="#F1F7F7" stroke="#D5E7E4"/>
+  <text x="54" y="632" fill="#2C5A55" font-size="14" font-family="Arial">18:00 高铁 G7315</text>
+  <text x="54" y="664" fill="#17315C" font-size="22" font-family="Arial" font-weight="700">上海虹桥 → 杭州东</text>
+  <text x="54" y="690" fill="#56706C" font-size="14" font-family="Arial">建议 16:30 出发，打车 42 分钟</text>
+
+  <rect x="32" y="734" width="366" height="110" rx="26" fill="#F9F7F2" stroke="#E3DED5"/>
+  <text x="54" y="768" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">快速操作</text>
+  <rect x="54" y="786" width="86" height="34" rx="17" fill="#FFFFFF"/>
+  <text x="77" y="808" fill="#17315C" font-size="14" font-family="Arial">加日程</text>
+  <rect x="150" y="786" width="86" height="34" rx="17" fill="#FFFFFF"/>
+  <text x="173" y="808" fill="#17315C" font-size="14" font-family="Arial">扫发票</text>
+  <rect x="246" y="786" width="86" height="34" rx="17" fill="#FFFFFF"/>
+  <text x="269" y="808" fill="#17315C" font-size="14" font-family="Arial">做路线</text>
+
+  <rect x="84" y="862" width="262" height="38" rx="19" fill="#FFFFFF" stroke="#E3DED5"/>
+  <text x="113" y="886" fill="#17315C" font-size="14" font-family="Arial">今日</text>
+  <text x="180" y="886" fill="#A0A8B8" font-size="14" font-family="Arial">助理</text>
+  <text x="245" y="886" fill="#A0A8B8" font-size="14" font-family="Arial">行程</text>
+  <text x="308" y="886" fill="#A0A8B8" font-size="14" font-family="Arial">费用</text>
+</svg>
+

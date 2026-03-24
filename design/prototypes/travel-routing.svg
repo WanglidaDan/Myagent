@@ -1,0 +1,40 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="430" height="932" rx="44" fill="#EEF2F5"/>
+  <rect x="18" y="18" width="394" height="896" rx="36" fill="#F8FAFB" stroke="#D7DEE6"/>
+  <text x="38" y="78" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">路线</text>
+  <text x="38" y="106" fill="#6A7487" font-size="15" font-family="Arial">客户会前出发建议</text>
+
+  <rect x="32" y="130" width="366" height="146" rx="24" fill="#1D3D73"/>
+  <text x="54" y="166" fill="#DCE8FF" font-size="14" font-family="Arial">推荐</text>
+  <text x="54" y="202" fill="#FFFFFF" font-size="28" font-family="Arial" font-weight="700">16:30 出发</text>
+  <text x="54" y="230" fill="#DCE8FF" font-size="15" font-family="Arial">公司 → 浦东机场 T2 附近会议点</text>
+  <text x="54" y="254" fill="#DCE8FF" font-size="15" font-family="Arial">预计 42 分钟，建议预留 18 分钟缓冲</text>
+
+  <text x="32" y="318" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">方式对比</text>
+
+  <rect x="32" y="338" width="366" height="84" rx="22" fill="white" stroke="#DFE6EC"/>
+  <text x="54" y="372" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">打车</text>
+  <text x="54" y="396" fill="#6A7487" font-size="14" font-family="Arial">42 分钟 · 约 ¥78</text>
+  <text x="328" y="386" fill="#2AA198" font-size="14" font-family="Arial">最快</text>
+
+  <rect x="32" y="434" width="366" height="84" rx="22" fill="white" stroke="#DFE6EC"/>
+  <text x="54" y="468" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">地铁</text>
+  <text x="54" y="492" fill="#6A7487" font-size="14" font-family="Arial">58 分钟 · 步行 9 分钟</text>
+  <text x="318" y="482" fill="#A07A24" font-size="14" font-family="Arial">更稳妥</text>
+
+  <rect x="32" y="530" width="366" height="84" rx="22" fill="white" stroke="#DFE6EC"/>
+  <text x="54" y="564" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">自驾</text>
+  <text x="54" y="588" fill="#6A7487" font-size="14" font-family="Arial">49 分钟 · 停车信息不确定</text>
+
+  <rect x="32" y="646" width="366" height="138" rx="24" fill="#F1F7F7" stroke="#D3E7E3"/>
+  <text x="54" y="682" fill="#2C5A55" font-size="14" font-family="Arial">联动动作</text>
+  <text x="54" y="716" fill="#17315C" font-size="20" font-family="Arial" font-weight="700">已为你准备 2 个后续动作</text>
+  <text x="54" y="744" fill="#56706C" font-size="14" font-family="Arial">1. 16:20 出发提醒</text>
+  <text x="54" y="768" fill="#56706C" font-size="14" font-family="Arial">2. 将路线写入会议备注</text>
+
+  <rect x="54" y="796" width="140" height="36" rx="18" fill="#2AA198"/>
+  <text x="94" y="819" fill="white" font-size="14" font-family="Arial" font-weight="700">应用建议</text>
+  <rect x="206" y="796" width="140" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="246" y="819" fill="#17315C" font-size="14" font-family="Arial">稍后提醒</text>
+</svg>
+

@@ -1,0 +1,45 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="430" height="932" rx="44" fill="#F3F0EA"/>
+  <rect x="18" y="18" width="394" height="896" rx="36" fill="#FAF8F4" stroke="#D9D2C8"/>
+  <text x="38" y="78" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">费用</text>
+  <text x="38" y="106" fill="#6A7487" font-size="15" font-family="Arial">3 月共 18 笔 · 待报销 6 笔</text>
+
+  <rect x="32" y="130" width="366" height="126" rx="24" fill="#17315C"/>
+  <text x="54" y="166" fill="#DCE8FF" font-size="14" font-family="Arial">月度汇总</text>
+  <text x="54" y="202" fill="white" font-size="30" font-family="Arial" font-weight="700">¥6,420</text>
+  <text x="54" y="228" fill="#DCE8FF" font-size="15" font-family="Arial">交通 ¥2,180 · 住宿 ¥2,700 · 餐饮 ¥1,540</text>
+
+  <rect x="32" y="278" width="176" height="104" rx="22" fill="#F1F7F7" stroke="#D3E7E3"/>
+  <text x="52" y="314" fill="#2C5A55" font-size="14" font-family="Arial">待提交</text>
+  <text x="52" y="352" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">3 笔</text>
+
+  <rect x="222" y="278" width="176" height="104" rx="22" fill="#FFFFFF" stroke="#E3DED5"/>
+  <text x="242" y="314" fill="#17315C" font-size="14" font-family="Arial">待复核</text>
+  <text x="242" y="352" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">2 张票据</text>
+
+  <text x="32" y="420" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">最近发票</text>
+
+  <rect x="32" y="440" width="366" height="104" rx="22" fill="white" stroke="#E3DED5"/>
+  <text x="54" y="474" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">杭州东站网约车</text>
+  <text x="54" y="500" fill="#6A7487" font-size="14" font-family="Arial">交通 · 2026/03/23 · OCR 置信度 96%</text>
+  <text x="312" y="500" fill="#2AA198" font-size="14" font-family="Arial">¥86.00</text>
+  <rect x="54" y="512" width="86" height="28" rx="14" fill="#F1F7F7"/>
+  <text x="78" y="531" fill="#2C5A55" font-size="12" font-family="Arial">待提交</text>
+
+  <rect x="32" y="556" width="366" height="104" rx="22" fill="white" stroke="#E3DED5"/>
+  <text x="54" y="590" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">杭州西溪酒店</text>
+  <text x="54" y="616" fill="#6A7487" font-size="14" font-family="Arial">住宿 · 2026/03/23 · 缺税额字段</text>
+  <text x="302" y="616" fill="#17315C" font-size="14" font-family="Arial">¥1,080.00</text>
+  <rect x="54" y="628" width="86" height="28" rx="14" fill="#FFF3DA"/>
+  <text x="78" y="647" fill="#9B6A00" font-size="12" font-family="Arial">待复核</text>
+
+  <rect x="32" y="682" width="366" height="134" rx="24" fill="#FFFFFF" stroke="#E3DED5"/>
+  <text x="54" y="716" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">录入方式</text>
+  <rect x="54" y="736" width="96" height="40" rx="20" fill="#1D3D73"/>
+  <text x="82" y="761" fill="#FFFFFF" font-size="14" font-family="Arial">拍照扫描</text>
+  <rect x="160" y="736" width="96" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="188" y="761" fill="#17315C" font-size="14" font-family="Arial">相册导入</text>
+  <rect x="266" y="736" width="96" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="297" y="761" fill="#17315C" font-size="14" font-family="Arial">PDF 导入</text>
+</svg>
+

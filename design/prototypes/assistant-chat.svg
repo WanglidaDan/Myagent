@@ -1,0 +1,39 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="430" height="932" rx="44" fill="#EEF2F5"/>
+  <rect x="18" y="18" width="394" height="896" rx="36" fill="#F8FAFB" stroke="#D7DEE6"/>
+  <text x="38" y="78" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">助理</text>
+  <text x="38" y="106" fill="#6A7487" font-size="15" font-family="Arial">将自然语言转为日程、提醒、路线和费用动作</text>
+
+  <rect x="188" y="136" width="210" height="92" rx="22" fill="#1D3D73"/>
+  <text x="206" y="170" fill="#DCE8FF" font-size="14" font-family="Arial">你</text>
+  <text x="206" y="198" fill="white" font-size="16" font-family="Arial">帮我安排下周杭州两天出差</text>
+
+  <rect x="32" y="248" width="306" height="132" rx="22" fill="white" stroke="#DFE6EC"/>
+  <text x="52" y="282" fill="#2AA198" font-size="14" font-family="Arial">Orion</text>
+  <text x="52" y="312" fill="#17315C" font-size="16" font-family="Arial">我已识别到 1 个出差任务、2 个会议时间点，</text>
+  <text x="52" y="336" fill="#17315C" font-size="16" font-family="Arial">并建议创建 3 个提醒。请确认是否生成行程草案。</text>
+
+  <rect x="32" y="398" width="366" height="180" rx="26" fill="#F1F7F7" stroke="#D3E7E3"/>
+  <text x="54" y="432" fill="#2C5A55" font-size="14" font-family="Arial">待确认动作</text>
+  <text x="54" y="463" fill="#17315C" font-size="22" font-family="Arial" font-weight="700">杭州客户出差草案</text>
+  <text x="54" y="492" fill="#56706C" font-size="14" font-family="Arial">周二 09:00 出发 · 周三 17:00 返回</text>
+  <text x="54" y="516" fill="#56706C" font-size="14" font-family="Arial">包含 2 个日历事件、3 个提醒、1 条路线建议</text>
+  <rect x="54" y="530" width="128" height="36" rx="18" fill="#2AA198"/>
+  <text x="90" y="553" fill="white" font-size="14" font-family="Arial" font-weight="700">确认创建</text>
+  <rect x="194" y="530" width="128" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="230" y="553" fill="#17315C" font-size="14" font-family="Arial">继续修改</text>
+
+  <text x="32" y="626" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">快捷指令</text>
+  <rect x="32" y="646" width="174" height="54" rx="20" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="50" y="678" fill="#17315C" font-size="14" font-family="Arial">创建明天提醒</text>
+  <rect x="224" y="646" width="174" height="54" rx="20" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="242" y="678" fill="#17315C" font-size="14" font-family="Arial">扫描发票并入账</text>
+  <rect x="32" y="712" width="174" height="54" rx="20" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="50" y="744" fill="#17315C" font-size="14" font-family="Arial">为会议规划路线</text>
+  <rect x="224" y="712" width="174" height="54" rx="20" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="242" y="744" fill="#17315C" font-size="14" font-family="Arial">整理本月报销</text>
+
+  <rect x="32" y="808" width="366" height="72" rx="24" fill="#FFFFFF" stroke="#D7DEE6"/>
+  <text x="56" y="852" fill="#9AA4B6" font-size="15" font-family="Arial">输入日程、提醒、出差或发票相关需求...</text>
+</svg>
+

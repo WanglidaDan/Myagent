@@ -1,0 +1,43 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="430" height="932" rx="44" fill="#F5F3EE"/>
+  <rect x="18" y="18" width="394" height="896" rx="36" fill="#FBFAF7" stroke="#D7D1C7"/>
+  <text x="38" y="78" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">杭州出差</text>
+  <text x="38" y="106" fill="#6A7487" font-size="15" font-family="Arial">3月31日 - 4月1日 · 预算 2,800 元</text>
+
+  <rect x="32" y="130" width="366" height="124" rx="24" fill="#1D3D73"/>
+  <text x="54" y="166" fill="#DCE8FF" font-size="14" font-family="Arial">行程摘要</text>
+  <text x="54" y="198" fill="white" font-size="22" font-family="Arial" font-weight="700">2 个会议 · 1 段高铁 · 4 条提醒</text>
+  <text x="54" y="225" fill="#DCE8FF" font-size="15" font-family="Arial">酒店未确定，返程已建议周三 15:30 出发</text>
+
+  <rect x="32" y="274" width="366" height="250" rx="24" fill="white" stroke="#E3DED5"/>
+  <text x="52" y="308" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">时间轴</text>
+  <line x1="72" y1="336" x2="72" y2="496" stroke="#C5D3E8" stroke-width="4"/>
+  <circle cx="72" cy="358" r="10" fill="#2AA198"/>
+  <circle cx="72" cy="414" r="10" fill="#E8B04B"/>
+  <circle cx="72" cy="470" r="10" fill="#1D3D73"/>
+  <text x="96" y="362" fill="#17315C" font-size="16" font-family="Arial" font-weight="700">09:00 上海虹桥出发</text>
+  <text x="96" y="384" fill="#6A7487" font-size="14" font-family="Arial">已关联打车提醒</text>
+  <text x="96" y="418" fill="#17315C" font-size="16" font-family="Arial" font-weight="700">14:00 客户拜访</text>
+  <text x="96" y="440" fill="#6A7487" font-size="14" font-family="Arial">杭州滨江区 · 90 分钟</text>
+  <text x="96" y="474" fill="#17315C" font-size="16" font-family="Arial" font-weight="700">18:30 酒店入住</text>
+  <text x="96" y="496" fill="#6A7487" font-size="14" font-family="Arial">待确认酒店与地址</text>
+
+  <rect x="32" y="544" width="176" height="146" rx="22" fill="#F1F7F7" stroke="#D3E7E3"/>
+  <text x="52" y="578" fill="#2C5A55" font-size="14" font-family="Arial">预算</text>
+  <text x="52" y="614" fill="#17315C" font-size="28" font-family="Arial" font-weight="700">¥1,480</text>
+  <text x="52" y="640" fill="#56706C" font-size="14" font-family="Arial">已录入 / ¥2,800</text>
+  <text x="52" y="664" fill="#56706C" font-size="14" font-family="Arial">交通 ¥620 · 住宿待补</text>
+
+  <rect x="222" y="544" width="176" height="146" rx="22" fill="#FFFFFF" stroke="#E3DED5"/>
+  <text x="242" y="578" fill="#17315C" font-size="14" font-family="Arial">路线建议</text>
+  <text x="242" y="614" fill="#17315C" font-size="24" font-family="Arial" font-weight="700">42 分钟</text>
+  <text x="242" y="640" fill="#6A7487" font-size="14" font-family="Arial">公司 → 虹桥站</text>
+  <text x="242" y="664" fill="#6A7487" font-size="14" font-family="Arial">建议 08:05 提醒出发</text>
+
+  <rect x="32" y="714" width="366" height="118" rx="24" fill="#FFFFFF" stroke="#E3DED5"/>
+  <text x="52" y="748" fill="#17315C" font-size="18" font-family="Arial" font-weight="700">待处理</text>
+  <text x="52" y="776" fill="#6A7487" font-size="14" font-family="Arial">1. 确认酒店</text>
+  <text x="52" y="800" fill="#6A7487" font-size="14" font-family="Arial">2. 补充返程车票</text>
+  <text x="52" y="824" fill="#6A7487" font-size="14" font-family="Arial">3. 录入餐饮发票</text>
+</svg>
+
